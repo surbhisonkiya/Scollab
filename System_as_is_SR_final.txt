@@ -1,0 +1,396 @@
+{
+  "actors": [
+    {
+      "id": "120c8bfb-10ca-4d34-94f4-70dd15a7564a",
+      "text": "University Website",
+      "type": "istar.Agent",
+      "x": 889,
+      "y": 377,
+      "nodes": [
+        {
+          "id": "5bcbfef3-f235-4ab2-8ad5-a427dedec7ba",
+          "text": "Scholarships list provided",
+          "type": "istar.Goal",
+          "x": 961,
+          "y": 395
+        },
+        {
+          "id": "e9acf2b5-aafc-4231-9c21-0b37cb018695",
+          "text": "More admissions",
+          "type": "istar.Goal",
+          "x": 918,
+          "y": 451
+        },
+        {
+          "id": "3bad9730-efd7-4918-abc6-7db857ba7224",
+          "text": "Good students attracted",
+          "type": "istar.Goal",
+          "x": 1033,
+          "y": 451
+        }
+      ]
+    },
+    {
+      "id": "e8c89a24-06d5-4b77-9a27-218e5b44e88b",
+      "text": "Student",
+      "type": "istar.Role",
+      "x": 481,
+      "y": 27,
+      "nodes": [
+        {
+          "id": "c18be988-656b-4397-bbad-0aa0cf372f71",
+          "text": "Scholarship received",
+          "type": "istar.Goal",
+          "x": 619,
+          "y": 93
+        },
+        {
+          "id": "c80d7fcd-878c-4826-83cf-f3eb9d04fa2a",
+          "text": "University attended",
+          "type": "istar.Goal",
+          "x": 618,
+          "y": 43
+        },
+        {
+          "id": "5cbd1d92-6ed9-47f6-a261-ab04027a6c98",
+          "text": "Scholarship source found",
+          "type": "istar.Goal",
+          "x": 544,
+          "y": 303
+        },
+        {
+          "id": "b16b9846-c262-4214-8f8e-8610625f1ce0",
+          "text": "Scholarship source found",
+          "type": "istar.Goal",
+          "x": 726,
+          "y": 301
+        },
+        {
+          "id": "0eaf9621-6c77-4e5e-a449-79a368ec9830",
+          "text": "Upload mandatory documents",
+          "type": "istar.Task",
+          "x": 741,
+          "y": 181
+        },
+        {
+          "id": "abf74987-1ae3-4f48-919e-8aa841702ec6",
+          "text": "Update student profile details",
+          "type": "istar.Task",
+          "x": 741,
+          "y": 134
+        },
+        {
+          "id": "e1535d2c-1891-4b6c-b391-512b43c74b42",
+          "text": "Scholarship found",
+          "type": "istar.Goal",
+          "x": 619,
+          "y": 249
+        },
+        {
+          "id": "ef6fa123-551e-46c1-8293-558d06b0589d",
+          "text": "Scholarship application filled",
+          "type": "istar.Task",
+          "x": 617,
+          "y": 144
+        },
+        {
+          "id": "c34e1e28-80b6-4351-b89f-a72315f14861",
+          "text": "Student registered",
+          "type": "istar.Task",
+          "x": 617,
+          "y": 195
+        },
+        {
+          "id": "8a2fc984-fbad-4d50-b034-fa174cc402b7",
+          "text": "consumes time",
+          "type": "istar.Quality",
+          "x": 578,
+          "y": 406
+        },
+        {
+          "id": "b8bb6ee4-5612-4600-b2bd-5fbbbd7af8ea",
+          "text": "hectic and tiresome",
+          "type": "istar.Quality",
+          "x": 481,
+          "y": 414
+        },
+        {
+          "id": "a25925b5-e105-4f2b-b9da-c903f450b38f",
+          "text": "difficult to search",
+          "type": "istar.Quality",
+          "x": 680,
+          "y": 367
+        }
+      ]
+    },
+    {
+      "id": "1bf84743-3d1d-470a-9555-b35a0133fadc",
+      "text": "Non-profit Organisation",
+      "type": "istar.Actor",
+      "x": 137,
+      "y": 109,
+      "nodes": [
+        {
+          "id": "af858569-25c3-45c9-a1f0-099c8902494b",
+          "text": "Scholarship provided",
+          "type": "istar.Goal",
+          "x": 218,
+          "y": 128
+        },
+        {
+          "id": "d1589df1-fa57-41a0-8afc-4469309c04b6",
+          "text": "Students educated",
+          "type": "istar.Goal",
+          "x": 217,
+          "y": 186
+        },
+        {
+          "id": "692d4576-9712-4dc0-bc10-accf5f9adfa9",
+          "text": "Improve country",
+          "type": "istar.Quality",
+          "x": 285,
+          "y": 276
+        },
+        {
+          "id": "114b8d79-52e0-4826-bc1d-8f4d79db57a9",
+          "text": "Improve local community",
+          "type": "istar.Quality",
+          "x": 160,
+          "y": 276
+        }
+      ]
+    },
+    {
+      "id": "d00fbf72-771e-481b-a323-2947693277e4",
+      "text": "Corporate Organisation",
+      "type": "istar.Actor",
+      "x": 147,
+      "y": 380,
+      "nodes": [
+        {
+          "id": "990b7a4e-b365-47ee-8051-7494a5613b1f",
+          "text": "Scholarship provided",
+          "type": "istar.Goal",
+          "x": 217,
+          "y": 395
+        },
+        {
+          "id": "c0ab4ad5-8369-4c34-be67-429f628f0a65",
+          "text": "Students educated",
+          "type": "istar.Goal",
+          "x": 211,
+          "y": 455
+        },
+        {
+          "id": "848b123c-b525-4952-8cd7-df4c2ff3f69f",
+          "text": "Improve local community",
+          "type": "istar.Quality",
+          "x": 178,
+          "y": 562
+        },
+        {
+          "id": "c00e8268-dc8b-457c-a020-a800c0a2373b",
+          "text": "Improve country",
+          "type": "istar.Quality",
+          "x": 284,
+          "y": 560
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "575e7c2a-581c-42d6-b141-fcdbf04ea264",
+      "text": "Search eligible scholarship",
+      "type": "istar.Task",
+      "x": 413,
+      "y": 222,
+      "source": "5cbd1d92-6ed9-47f6-a261-ab04027a6c98",
+      "target": "af858569-25c3-45c9-a1f0-099c8902494b"
+    },
+    {
+      "id": "4677b347-da94-4db6-85aa-8b3e4482176e",
+      "text": "Search eligible scholarship",
+      "type": "istar.Task",
+      "x": 881,
+      "y": 288,
+      "source": "b16b9846-c262-4214-8f8e-8610625f1ce0",
+      "target": "5bcbfef3-f235-4ab2-8ad5-a427dedec7ba"
+    },
+    {
+      "id": "fec63787-575d-4a2f-996e-37661b8f04b5",
+      "text": "Search eligible scholarship",
+      "type": "istar.Task",
+      "x": 381,
+      "y": 349,
+      "source": "5cbd1d92-6ed9-47f6-a261-ab04027a6c98",
+      "target": "990b7a4e-b365-47ee-8051-7494a5613b1f"
+    }
+  ],
+  "links": [
+    {
+      "id": "36c46833-97dd-4cb0-8e03-6a767391ef10",
+      "type": "istar.DependencyLink",
+      "source": "5cbd1d92-6ed9-47f6-a261-ab04027a6c98",
+      "target": "575e7c2a-581c-42d6-b141-fcdbf04ea264"
+    },
+    {
+      "id": "377cd33d-58a4-4dd8-bf35-95f9e7defffb",
+      "type": "istar.DependencyLink",
+      "source": "575e7c2a-581c-42d6-b141-fcdbf04ea264",
+      "target": "af858569-25c3-45c9-a1f0-099c8902494b"
+    },
+    {
+      "id": "d0fabd04-fa40-4c8f-8d26-a15a3070a30e",
+      "type": "istar.DependencyLink",
+      "source": "b16b9846-c262-4214-8f8e-8610625f1ce0",
+      "target": "4677b347-da94-4db6-85aa-8b3e4482176e"
+    },
+    {
+      "id": "0dc0c96f-2ab2-452e-82b6-6a7c6db59c88",
+      "type": "istar.DependencyLink",
+      "source": "4677b347-da94-4db6-85aa-8b3e4482176e",
+      "target": "5bcbfef3-f235-4ab2-8ad5-a427dedec7ba"
+    },
+    {
+      "id": "f224fdd3-843d-468e-9768-d95bcf328d95",
+      "type": "istar.AndRefinementLink",
+      "source": "c80d7fcd-878c-4826-83cf-f3eb9d04fa2a",
+      "target": "c18be988-656b-4397-bbad-0aa0cf372f71"
+    },
+    {
+      "id": "9f363a64-316b-46d9-a3d1-83b11efa847a",
+      "type": "istar.ContributionLink",
+      "source": "c0ab4ad5-8369-4c34-be67-429f628f0a65",
+      "target": "c00e8268-dc8b-457c-a020-a800c0a2373b",
+      "label": "help"
+    },
+    {
+      "id": "b5da6920-8d1b-4fd4-bcc4-ac1e3c21db6f",
+      "type": "istar.ContributionLink",
+      "source": "c0ab4ad5-8369-4c34-be67-429f628f0a65",
+      "target": "848b123c-b525-4952-8cd7-df4c2ff3f69f",
+      "label": "help"
+    },
+    {
+      "id": "fca9e0ec-ba3e-4b50-a9a5-b4d83d426d86",
+      "type": "istar.AndRefinementLink",
+      "source": "990b7a4e-b365-47ee-8051-7494a5613b1f",
+      "target": "c0ab4ad5-8369-4c34-be67-429f628f0a65"
+    },
+    {
+      "id": "9b911b6a-aa0c-4f4d-9123-a5d7b8a23b0c",
+      "type": "istar.ContributionLink",
+      "source": "d1589df1-fa57-41a0-8afc-4469309c04b6",
+      "target": "692d4576-9712-4dc0-bc10-accf5f9adfa9",
+      "label": "help"
+    },
+    {
+      "id": "d55db43a-d5fd-4b64-91a4-ce1572c1a741",
+      "type": "istar.ContributionLink",
+      "source": "d1589df1-fa57-41a0-8afc-4469309c04b6",
+      "target": "114b8d79-52e0-4826-bc1d-8f4d79db57a9",
+      "label": "help"
+    },
+    {
+      "id": "487891eb-9cf5-4501-9e8e-959cd426b5be",
+      "type": "istar.AndRefinementLink",
+      "source": "af858569-25c3-45c9-a1f0-099c8902494b",
+      "target": "d1589df1-fa57-41a0-8afc-4469309c04b6"
+    },
+    {
+      "id": "44cb6632-fa38-4e50-8e04-4c09ecb606ae",
+      "type": "istar.AndRefinementLink",
+      "source": "5bcbfef3-f235-4ab2-8ad5-a427dedec7ba",
+      "target": "3bad9730-efd7-4918-abc6-7db857ba7224"
+    },
+    {
+      "id": "7203eaeb-50fa-4132-9cad-f81c6fc79859",
+      "type": "istar.AndRefinementLink",
+      "source": "5bcbfef3-f235-4ab2-8ad5-a427dedec7ba",
+      "target": "e9acf2b5-aafc-4231-9c21-0b37cb018695"
+    },
+    {
+      "id": "6885b1ed-82b9-4ab5-8333-d7a890301774",
+      "type": "istar.AndRefinementLink",
+      "source": "c18be988-656b-4397-bbad-0aa0cf372f71",
+      "target": "ef6fa123-551e-46c1-8293-558d06b0589d"
+    },
+    {
+      "id": "a823df4a-4edb-4762-9381-90e3ae98f5f0",
+      "type": "istar.AndRefinementLink",
+      "source": "ef6fa123-551e-46c1-8293-558d06b0589d",
+      "target": "abf74987-1ae3-4f48-919e-8aa841702ec6"
+    },
+    {
+      "id": "a52166a0-192a-41b2-a564-3017e7326bb4",
+      "type": "istar.AndRefinementLink",
+      "source": "ef6fa123-551e-46c1-8293-558d06b0589d",
+      "target": "0eaf9621-6c77-4e5e-a449-79a368ec9830"
+    },
+    {
+      "id": "bcc9d8f7-cbef-4553-b603-a82cb3e4261e",
+      "type": "istar.OrRefinementLink",
+      "source": "e1535d2c-1891-4b6c-b391-512b43c74b42",
+      "target": "b16b9846-c262-4214-8f8e-8610625f1ce0"
+    },
+    {
+      "id": "0c248bd5-d9ea-4948-9e74-d205e0931c4f",
+      "type": "istar.OrRefinementLink",
+      "source": "e1535d2c-1891-4b6c-b391-512b43c74b42",
+      "target": "5cbd1d92-6ed9-47f6-a261-ab04027a6c98"
+    },
+    {
+      "id": "9973b502-646d-41b6-a90e-680aeab12fbf",
+      "type": "istar.AndRefinementLink",
+      "source": "ef6fa123-551e-46c1-8293-558d06b0589d",
+      "target": "c34e1e28-80b6-4351-b89f-a72315f14861"
+    },
+    {
+      "id": "9c948812-cdd2-4d5c-860f-a8e82d457a60",
+      "type": "istar.AndRefinementLink",
+      "source": "c34e1e28-80b6-4351-b89f-a72315f14861",
+      "target": "e1535d2c-1891-4b6c-b391-512b43c74b42"
+    },
+    {
+      "id": "c9f70145-7fea-45b2-9aa8-cd155f6f96a8",
+      "type": "istar.ContributionLink",
+      "source": "5cbd1d92-6ed9-47f6-a261-ab04027a6c98",
+      "target": "b8bb6ee4-5612-4600-b2bd-5fbbbd7af8ea",
+      "label": "hurt"
+    },
+    {
+      "id": "98187c8f-65cd-4187-8f29-53fa7ba2f821",
+      "type": "istar.DependencyLink",
+      "source": "5cbd1d92-6ed9-47f6-a261-ab04027a6c98",
+      "target": "fec63787-575d-4a2f-996e-37661b8f04b5"
+    },
+    {
+      "id": "ff787ad4-eea6-4073-a49e-bd313310df57",
+      "type": "istar.DependencyLink",
+      "source": "fec63787-575d-4a2f-996e-37661b8f04b5",
+      "target": "990b7a4e-b365-47ee-8051-7494a5613b1f"
+    },
+    {
+      "id": "437a585a-a5ea-48ee-b037-4f98e78e6a20",
+      "type": "istar.ContributionLink",
+      "source": "5cbd1d92-6ed9-47f6-a261-ab04027a6c98",
+      "target": "a25925b5-e105-4f2b-b9da-c903f450b38f",
+      "label": "hurt"
+    },
+    {
+      "id": "0112b55a-89ec-4a3b-b069-da94178a8152",
+      "type": "istar.ContributionLink",
+      "source": "5cbd1d92-6ed9-47f6-a261-ab04027a6c98",
+      "target": "8a2fc984-fbad-4d50-b034-fa174cc402b7",
+      "label": "hurt"
+    }
+  ],
+  "tool": "pistar.1.0.0",
+  "istar": "2.0",
+  "saveDate": "Sat, 13 Jan 2018 09:25:19 GMT",
+  "diagram": {
+    "width": 1975.5,
+    "height": 1172
+  }
+}
